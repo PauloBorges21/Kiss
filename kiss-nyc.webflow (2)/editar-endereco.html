@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--  Last Published: Wed May 29 2019 18:54:40 GMT+0000 (UTC)  -->
+<html data-wf-page="5ceed0495db0ff3f494d2fbf" data-wf-site="5ce6d86945510881647505b0">
+<head>
+  <meta charset="utf-8">
+  <title>Editar endereço</title>
+  <meta content="Editar endereço" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/components.css" rel="stylesheet" type="text/css">
+  <link href="css/kiss-nyc.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.jpg" rel="apple-touch-icon">
+  <style type="text/css">
+   @media screen and (min-width: 1200px) {
+        .w-container {
+          max-width: 1200px;
+        }
+     .btn.main-banner.w-button {
+   		 left: -70px;
+   }
+   .section.section-mainbanner {
+         height: 755px;
+         background-position: 85% 27%, 0px 0px;
+         background-size: 800px, cover;
+   }
+     .nav-link.participe {
+       padding: 15px 30px;
+     }
+     .nav-link {
+        padding: 20px 15px;
+        color: #951a2c;
+        font-size: 14px;
+     }
+     .nav-esq {
+        padding: 0 0 0 50px;
+    }
+}
+       select {
+        -webkit-appearance: none !important; /*Removes default chrome and safari style*/
+        -moz-appearance: none !important; /*Removes default style Firefox*/
+        -ms-appearance: none;
+        -o-appearance:none !important;
+        appearance:none !important;
+        overflow:hidden;
+        width: 120%;
+      }
+      select::-ms-expand {
+        display: none !important;
+    }
+      .select-cadastro::-ms-expand {
+        display: none !important;
+    }
+</style>
+</head>
+<body>
+  <div class="section section-nav">
+    <div data-collapse="medium" data-animation="default" data-duration="400" class="nav-bar w-nav">
+      <div class="container container-navbar w-container"><a href="#" class="logo-nav w-nav-brand"><img src="images/logo.png" alt="" class="img-logo-nav"></a>
+        <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+          <div class="nav-esq"><a href="https://kiss-nyc.webflow.io/#participar" class="nav-link w-nav-link">COMO PARTICIPAR</a><a href="https://kiss-nyc.webflow.io/#premios" class="nav-link w-nav-link">PRÊMIOS</a><a href="https://kiss-nyc.webflow.io/#faq" class="nav-link w-nav-link">DÚVIDAS</a><a href="https://kiss-nyc.webflow.io/#regulamento" class="nav-link w-nav-link">REGULAMENTO</a><a href="https://kiss-nyc.webflow.io/#ganhadores" class="nav-link w-nav-link">GANHADORES</a></div>
+          <div class="nav-dir"><a href="login.html" class="nav-link login w-nav-link">Login</a><a href="cadastro.html" class="nav-link w-nav-link">CADASTRO</a><a href="cadastro.html" class="nav-link participe w-nav-link">PARTICIPE</a></div>
+        </nav>
+        <div class="menu-btn w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container container-cadastro w-container">
+      <div class="tabs-menu">
+        <div class="box-bread">
+          <div><a href="index.html" class="link-bread">HOME</a> / MEUS CUPONS</div>
+        </div>
+        <h3 class="h3-interna">MEUS CUPONS</h3>
+        <div class="nome-user">Olá, Aline.</div><a href="index.html" class="btn-sair">Sair</a>
+        <ul class="ul-nav-conta w-list-unstyled">
+          <li class="li-nav-conta"><a href="minha-conta.html" class="link-nav-conta">MINHA CONTA</a></li>
+          <li class="li-nav-conta"><a href="editar-meus-dados.html" class="link-nav-conta">MEUS DADOS</a></li>
+          <li class="li-nav-conta"><a href="editar-endereco.html" class="link-nav-conta w--current">ENDEREÇO</a></li>
+          <li class="li-nav-conta"><a href="meus-cupons.html" class="link-nav-conta">MEUS CUPONS</a></li>
+        </ul><a href="#" class="btn btn-full w-button">CADASTRAR CUPOM</a></div>
+      <div class="tabs-content editar-dados">
+        <h2 class="h2-conta">MEU Endereço</h2>
+        <div class="form-edit-dados w-form">
+          <form id="wf-form-Form_Login" name="wf-form-Form_Login" data-name="Form_Login">
+            <div class="txt-obrigatorios">*Campos obrigatórios.</div><label for="name">cep</label><input type="text" class="input peq w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="00000-000" id="name-3"><label for="name">rua</label><input type="text" class="input w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="Rua/Avenida/Alameda" id="name-3"><label for="name">número</label><input type="text" class="input peq w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="0000" id="name-3"><label for="name">conplemento</label><input type="text" class="input w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="DD 0000-0000" id="name-3"><label for="name">referência</label><input type="text" class="input w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="Digite seu e-mail" id="name-3">
+            <div class="w-row">
+              <div class="w-col w-col-8"><label for="name-4">cidade</label><input type="text" class="input w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="Cidade" id="name-3"></div>
+              <div class="w-col w-col-4"><label for="name-4">estado</label><select id="field" name="field" class="select w-select"><option value="">Escolha um</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
+            </div><input type="submit" value="ATUALIZAR endereço" data-wait="Aguarde..." class="btn cadastro w-button"></form>
+          <div class="success-message w-form-done">
+            <div>Formulário enviado com sucesso</div>
+          </div>
+          <div class="error-message w-form-fail">
+            <div>Dados invalidos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-preta">
+    <div class="container container-footer w-container">
+      <div class="row-footer w-row">
+        <div class="col-footer w-col w-col-8">
+          <ul class="ul-logos-footer w-clearfix w-list-unstyled">
+            <li class="li-logos-footer"><img src="images/logo-branco.png" alt=""></li>
+            <li class="li-logos-footer"><img src="images/logo-rk.png" alt=""></li>
+            <li class="li-logos-footer"><img src="images/logo-i-envy.png" alt=""></li>
+            <li class="li-logos-footer"><img src="images/logo-impress.png" alt=""></li>
+          </ul>
+          <p class="info-sac"><strong>SAC 0800 580 2362</strong><br>Segunda a sexta-feira das 09: às 18:00h<br><a href="mailto:promokiss@kissnewyork.com.br" class="link-footer">promokiss@kissnewyork.com.br</a></p>
+          <p class="info-promo">Período total de participação de 10/06/2019 a 30/09/2019.<br>Certificado de autorização <strong>SEAE 00000000000/0000.</strong><br>Guarde todos os comprovantes.</p>
+          <p class="info-disclaimer">Imagens meramente ilustrativas. Regulamento completo aqui no site.</p>
+        </div>
+        <div class="col-footer w-col w-col-4"><a href="#" class="btn btn-footer w-button">CONHEÇA A KISS NEW YORK</a>
+          <div class="titu-redes">Redes Sociais</div>
+          <div class="row-redes w-row">
+            <div class="col-redes w-col w-col-4 w-col-small-4 w-col-tiny-4"><a href="#" class="w-inline-block"><img src="images/ico-fb.png" alt=""></a></div>
+            <div class="col-redes w-col w-col-4 w-col-small-4 w-col-tiny-4"><a href="#" class="w-inline-block"><img src="images/ico-ig.png" alt=""></a></div>
+            <div class="col-redes w-col w-col-4 w-col-small-4 w-col-tiny-4"><a href="#" class="w-inline-block"><img src="images/ico-yt.png" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/kiss-nyc.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
